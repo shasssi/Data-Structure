@@ -1,7 +1,7 @@
-# DATA STRUCTURE CODE IN JAVASCRIPT
+## DATA STRUCTURE CODE IN JAVASCRIPT
 
-## ARRAY
-### Binary Search
+### ARRAY
+#### Binary Search
 
-## LINKED LIST
-### Singly Linked List
+### LINKED LIST
+#### Singly Linked List
