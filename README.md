@@ -6,4 +6,6 @@
 ### LINKED LIST
 #### Singly Linked List
 
+https://www.youtube.com/watch?v=DjYZk8nrXVY
+
 
