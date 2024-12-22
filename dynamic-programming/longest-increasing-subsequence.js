@@ -2,7 +2,7 @@
     @@ Leetcode - 300
     Longest Increasing Subsequence - returns the length of longest strictly increasing subsequence
 
-    Input: coins = [1,2,4,3]
+    Input: [1,2,4,3]
     @@ returns 3 - [1,2,4] or [1,2,3]
     @@ Explanation, LIS - Longest Increasing Subsequence
     LIS[3] = 1 : 1 -> ([3])
@@ -33,7 +33,6 @@ const bottomUpApproach = (inp) => {
     }
     max = Math.max(max, tempLIS);
     LIS[i] = tempLIS;
-    // console.log(inp[i], tempLIS, max);
   }
   return max;
 };
