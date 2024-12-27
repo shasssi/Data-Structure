@@ -10,7 +10,7 @@ class Node {
   }
 }
 
-const createList = (inp) => {
+function createList(inp) {
   let head;
   let currentNode;
   for (let i in inp) {
@@ -30,17 +30,16 @@ const createList = (inp) => {
     }
   }
   return head;
-};
+}
 
-const printList = (n) => {
-    while (n !== null) {
-      const data = n.data;
-      console.log(data);
-      n = n.next;
-    }
+function printList(n) {
+  while (n !== null) {
+    const data = n.data;
+    console.log(data);
+    n = n.next;
   }
+}
 
 const head = createList([1, 2, 3, 4]);
 console.log(head);
 printList(head);
-
