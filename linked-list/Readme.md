@@ -17,5 +17,5 @@
         - In Array we can do it by index : arr[3]
     - Extra memory space for pointers(next)
 
-##### Reference
-    - [youtube-link](https://www.youtube.com/watch?v=10l9lDW7eGo&list=PLzjZaW71kMwQVEuI4I0Yj0NnsV-km-Jt_&index=5&pp=iAQB)
+###### References
+[https://www.youtube.com/watch?v=10l9lDW](https://www.youtube.com/watch?v=10l9lDW7eGo&list=PLzjZaW71kMwQVEuI4I0Yj0NnsV-km-Jt_&index=5&pp=iAQB)
