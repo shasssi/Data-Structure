@@ -7,6 +7,7 @@ class Node {
   }
 }
 
+// add a nodd at the front 
 function unShiift(head, inp) {
   const newNode = new Node(inp);
   if (head === null) {
