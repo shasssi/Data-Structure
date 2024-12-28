@@ -17,5 +17,14 @@
         - In Array we can do it by index : arr[3]
     - Extra memory space for pointers(next)
 
+##### Doubly Linked List
+    - It contains an extra pointer call "previous" pointer. Node containes: [prev|data|next]
+    - Advantages
+        - Node can be easily traversed in both direction
+        - we can easily insert a node before a given node
+    - Disadvantages
+        - we have to maintain a extra pointer
+        - all oprations require an extra pointer ("previous") to be maintained
+
 ###### References
 [https://www.youtube.com/watch?v=10l9lDW](https://www.youtube.com/watch?v=10l9lDW7eGo&list=PLzjZaW71kMwQVEuI4I0Yj0NnsV-km-Jt_&index=5&pp=iAQB)
