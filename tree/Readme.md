@@ -54,4 +54,4 @@
             - number of leaf nodes = 7 + 1 = 8 (8 9 10 11 12 13 14 15)
 
 ##### Reference
-    [https://www.youtube.com/watch?v=nbgty](https://www.youtube.com/watch?v=nbgtyBKn2tI&list=PLzjZaW71kMwQ-JABTOTypnpRk1BnD2Nx4)
+[https://www.youtube.com/watch?v=nbgty](https://www.youtube.com/watch?v=nbgtyBKn2tI&list=PLzjZaW71kMwQ-JABTOTypnpRk1BnD2Nx4)
