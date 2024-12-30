@@ -102,5 +102,17 @@
                             40
         - Performance of such trees are same as Single Linked List
 
+##### Tree Traversal
+    - eg.       1
+            /       \
+           2         3
+        /     \
+       4       5
+
+    - Level order traversal: 1 2 3 4 5  ================  BREADTH FIRST TRAVERSALS
+    - Inorder (Left, Root, Right): 4 2 5 1 3 =========== -
+    - Preorder (Root, Left, Right): 1 2 4 5 3 ==========  | ----> DEPTH FIRST TRAVERSALS
+    - Postorder (Left, Right, Root): 4 5 2 3 1 ========= -
+ 
 ##### Reference
 [https://www.youtube.com/watch?v=nbgty](https://www.youtube.com/watch?v=nbgtyBKn2tI&list=PLzjZaW71kMwQ-JABTOTypnpRk1BnD2Nx4)
