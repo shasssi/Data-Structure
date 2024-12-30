@@ -53,5 +53,54 @@
             - hence, number of leaf nodes will be one more than nodes with two children.
             - number of leaf nodes = 7 + 1 = 8 (8 9 10 11 12 13 14 15)
 
+##### Types of Binary Tree 
+    - Full Binary Tree
+        - A Binary Tree is a full Binary Tree if every nodes has 0 or 2 children (means no nodes should have 1 children)
+        - or A Full binary tree - in which all nodes except leaf nodes have two Children
+        - eg                 1
+                        /          \
+                        2           3
+                    /       \
+                   4         5
+    - Complete Binary Tree
+        - A binary tree is a complete binary tree if all the levels are completely filled
+        - expect possibly the last level and the last level has all keys as left as possible.
+        - eg             1          |              1            |                   1
+                    /          \    |        /          \       |              /         \
+                    2           3   |        2           3      |            2            3
+                /                   |    /       \      /       |         /     \        /  \
+               4                    |   4         5     6       |       4         5      6   7
+                                    |                           |     /   \     /   \   /   
+                                    |                           |    8     9   10   11  12
+                    
+    - Perfect Binary Tree
+        - is a tree in which all the internal nodes have 2 children 
+        - and all leaf nodes are at the same level
+        - eg             1          |              1            |                   
+                    /          \    |        /          \       |  
+                    2           3   |        2           3      |  
+                                    |    /       \      /  \    |  
+                                    |   4         5     6   7   |  
+                                    |                           |  
+                                    |                           |  
+    
+    - Balanced Binary Tree
+        - a binary tree is balanced if the height of the tree is O(log n), n = number of nodes.
+        - eg. AVL Tree maintains O(Log n) height by making sure that the differnce between the 
+            - heights of the left and right subtrees is almost 1.
+        - eg. Red-Black trees maintain O(Log n) height
+        [link](https://www.youtube.com/watch?v=NUMEZO-BziM&list=PLzjZaW71kMwQ-JABTOTypnpRk1BnD2Nx4&index=5)
+
+    - A degenerate (or pathological) Binary Tree
+        - A tree where every internal node (except leaf node) has one child.
+        - eg.             10
+                         /
+                        20
+                          \
+                          30
+                            \ 
+                            40
+        - Performance of such trees are same as Single Linked List
+
 ##### Reference
 [https://www.youtube.com/watch?v=nbgty](https://www.youtube.com/watch?v=nbgtyBKn2tI&list=PLzjZaW71kMwQ-JABTOTypnpRk1BnD2Nx4)
