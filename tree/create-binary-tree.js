@@ -7,7 +7,7 @@ class Node {
   }
 }
 
-function printNode(n) {
+function printLeftNode(n) {
   while (n !== null) {
     // print only left
     console.log(n.data);
@@ -75,6 +75,6 @@ function printNodeAtLevel(n, h = 0) {
             / \   / \
            4  6   7  5
  */
-  printNode(root);
-  printNodeAtLevel(root);
+  printLeftNode(root);
+  // printNodeAtLevel(root);
 })();
