@@ -7,6 +7,45 @@ class Node {
 }
 
 /*
+    eg:                1
+                    /   \
+                   2     3
+                  / \   / \
+                 4  6   7  5
+*/
+
+function printLevelorderV2(root) {
+  const result = [];
+  if (root === null) {
+    return result;
+  }
+  const queue = [];
+  queue.push(root);
+  while (true) {
+    let size = queue.length;
+    if (size === 0) {
+      console.log(result);
+      return;
+    }
+    // store data at each level
+    const tempResult = [];
+    while (size !== 0) {
+      const node = queue[0];
+      tempResult.push(node.data);
+      queue.shift();
+      if (node.left !== null) {
+        queue.push(node.left);
+      }
+      if (node.right !== null) {
+        queue.push(node.right);
+      }
+      size -= 1;
+    }
+    result.push(tempResult);
+  }
+}
+
+/*
     using queue approach
     we push root left right
     eg:                1
@@ -19,7 +58,7 @@ class Node {
     push left and right -> queue = 3 4 6 7 5 -> process first 2 -> queue = 4 6 7 5
 */
 
-function printLevelorder(root) {
+function printLevelorderV1(root) {
   if (root === null) {
     return;
   }
@@ -31,10 +70,10 @@ function printLevelorder(root) {
     result.push(node.data);
     queue.shift();
     if (node.left !== null) {
-        queue.push(node.left);
+      queue.push(node.left);
     }
     if (node.right !== null) {
-        queue.push(node.right);
+      queue.push(node.right);
     }
   }
   console.log(result);
@@ -57,6 +96,7 @@ function printLevelorder(root) {
                   / \   / \
                  4  6   7  5
        */
-  printLevelorder(root);
+  printLevelorderV1(root);
+  printLevelorderV2(root);
   // Levelorder output = 1 2 3 4 6 7 5
 })();
