@@ -91,6 +91,8 @@
         - eg. Red-Black trees maintain O(Log n) height
         [link](https://www.youtube.com/watch?v=NUMEZO-BziM&list=PLzjZaW71kMwQ-JABTOTypnpRk1BnD2Nx4&index=5)
 
+        - A height-balanced binary tree is a binary tree in which the depth of the two subtrees of every node never differs by more than one.
+
     - A degenerate (or pathological) Binary Tree
         - A tree where every internal node (except leaf node) has one child.
         - eg.             10
