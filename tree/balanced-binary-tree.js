@@ -20,6 +20,7 @@ function maxHeight(root) {
 }
 
 // we need to check every node -> left & right height > 1 == not balanced
+// we can use any tree traversal method - inorder, preorder, postorder, levelorder
 function isBalancedTree(root) {
   if (root === null) return true;
   if (root.left === null && root.right === null) return true;
