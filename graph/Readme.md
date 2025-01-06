@@ -18,7 +18,7 @@
         - Network topology and communication systems.
         - Dependency resoluttion (eg. task scheduling).
 
-##### Graph Representation
+##### Graph Properties
     v1 ------------- v3 
     |                |  \ 
     |                |   \
@@ -83,8 +83,67 @@
     - Cyclic directed
     - Acyclic undirected
     - Acyclic directed
-    - Weighted graph
+    - Weighted graph (edges will have some value)
     - unweighted graph
 
 ![image](https://github.com/user-attachments/assets/73ef57fd-0317-4fa7-98a9-e819b9ed5ef5)
     
+##### Graph Representaion
+    - Adjacency Matrix
+    - Adjacency List
+
+##### Adjacency Matrix
+                                         |  0  1  2  3
+                                     ----------------------- 
+    0                                   0|  0  1  1  0        
+    |  \                                1|  1  0  1  0
+    |   2 --- 3  = Matrix: (4 X 4)      2|  1  1  0  1          here 0 means no path and 1 means path exist
+    |  /           no. of vertex 4      3|  0  0  1  0
+    1                                    |
+
+    - size of matrix = (|v| * |v|),  v: no. of vertex.
+    - for undirected graph it is Symmetric Maxtrix
+        - if we draw a line across diagonal, we could see a mirror
+
+    - Directed Graph
+    0                                      |  0  1  2  3
+    ^ \                                 -----------------------            
+    |  \                                  0|  0  0  1  0
+    |   v                                 1|  1  0  0  0
+    |   2 --->> 3    Matrix: (4 X 4)      2|  0  1  0  1          here 0 means no path and 1 means path exist
+    |   / <<---      no. of vertex 4      3|  0  0  1  0
+    |  / 
+    | v        
+    1  
+
+##### How to handle vertices with Arbitary name ?
+    abc                    0
+    |  \                   | \
+    |  cde --- efg  <===>  |   2 --- 3 
+    |  /                   | /
+    bcd                    1
+
+    - we can create a hash table 'h' for mapping the name
+    h{abc} = 0, h{bcd} = 1, h{cde} = 2, h{efg} = 3
+
+    - we can also store in array --->  [abc, bcd, cde, efg] 
+                                         0    1    2    3
+
+##### Properties of Adjacency Matrix
+           (v)
+        0  1  2  3 
+ -----------------------
+     0|  0  1  1  0      
+ (u) 1|  1  0  1  0
+     2|  1  1  0  1      
+     3|  0  0  1  0
+
+    - Space required = O(v*v), v: no of vertex
+    - check if 'u' & 'v' are adjacent (or have edges) = O(1)
+        - we can directly check by arr[u][v], eg: check b/w 1 & 2, arr[1][3] = 1 (edges present)
+    - Find all vertices adjacent to u = O(v)
+        - here we need to check all vertices, eg, for u=1, we need to check all v=(0,1,2,3)
+    - Find degree of u = O(v)
+        - again we need to check all v to check the crossing path
+    - Add/Remove an edge = O(1)
+        - arr[u][v] = 0/1
