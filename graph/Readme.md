@@ -130,13 +130,13 @@
                                          0    1    2    3
 
 ##### Properties of Adjacency Matrix
-           (v)
-        0  1  2  3 
- -----------------------
-     0|  0  1  1  0      
- (u) 1|  1  0  1  0
-     2|  1  1  0  1      
-     3|  0  0  1  0
+                            (v)
+                          0  1  2  3
+                 ----------------------- 
+                     0 |  0  1  1  0        
+                (u)  1 |  1  0  1  0
+                     2 |  1  1  0  1          
+                     3 |  0  0  1  0
 
     - Space required = O(v*v), v: no of vertex
     - check if 'u' & 'v' are adjacent (or have edges) = O(1)
