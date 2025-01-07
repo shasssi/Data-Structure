@@ -25,7 +25,7 @@
  * @param {*} v: total vertex
  * @param {*} s: soucce for BFS traversal
  * @param {*} visited: visited array
- * @implements using queue and one array of length vertext to track visited vertex
+ * @implements using dfs recursion of adjacent vertex
  */
 function dfsRecursive(adjArr, s, visited) {
   visited[s] = true;
