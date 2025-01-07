@@ -147,3 +147,52 @@
         - again we need to check all v to check the crossing path
     - Add/Remove an edge = O(1)
         - arr[u][v] = 0/1
+
+##### Adjacency List
+    - In Adjacency Matrix - we store reduntant information
+        - means we store the information of that vertex which are not connected.
+        - eg. in above example - v{0, 3} = no edge b/w 0 & 3 (but in matrix we store 0 which is reduntant)
+
+    - Adjacency List :
+    - Two method to store information or represent the Graph:
+        - Vector (preferred) : array in Javascript
+        - Linked List (least preffered bcz of the challenge with insertion/deletion)
+          
+        0            
+        |  \         
+        |   2 --- 3  
+        |  /         
+        1    
+
+    Vertex | connection with
+    0        1, 2     (1, 2)
+    1        0, 2     (0, 2)
+    2        0, 1, 3  (0, 1, 3)
+    3        2        (2)
+
+    - Directed Graph
+            0                  Vertex | connection with
+            ^ \                0        2 
+            |  \               1        0 
+            |   v              2        1, 3 
+            |   2 --->> 3      3        2  
+            |   / <<---      
+            |  /
+            | v       
+            1 
+
+    - Space required = O(v + E), v: no of vertex, E: edges
+        - undirected: V + 2E
+        - directed: V + E
+    - check if 'u' & 'v' are adjacent (or have edges) = O(V)
+        - we need to go to the vertex and start searching for the connection
+        - eg. undirected above example, find 2 and 1 are connected or not ?? we need to search all 2 -> (0, 1, 3) 
+    - Find all vertices adjacent to u = O(v)
+        - here we need to check all vertices, eg, for u=2, we need to check all v=(0, 1 ,3)
+    - Find degree of u = O(1)
+        - we directly check the size 
+        - eg, degree(u(2)) = v(0, 1, 3) = size = 3
+    - Add = O(1)
+        - eg. directly we can add adj[2].push(4)
+    - Remove an edge = O(V)
+        - we need to search and find - then delete
