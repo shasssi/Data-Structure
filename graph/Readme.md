@@ -197,5 +197,23 @@
     - Remove an edge = O(V)
         - we need to search and find - then delete
 
+##### Graph Traversal
+    - BFS (Breadth First Search)
+        - Their immediate friends --> then their immediate friends
+        0            
+        |  \         
+        |   2 --- 3  
+        |  /         
+        1    
+
+        Source = 0
+        BFS = (0) (1 2) (3) {once vertext is visited, we should not consider it on next}
+        - first is 0
+        - immediate friend of 0 {1 2}
+        - immediate friend of 1 2 {3} (here 2 is immediate friend of 1 but it is already visited in case of 0)
+        - final result {(0) (1 2) (3)} (all vertex visited)
+
+    - DFS (Depth First Search)
+
 ##### Reference
 [https://www.youtube.com/playlist?list=PLzjZaW7](https://www.youtube.com/playlist?list=PLzjZaW71kMwSrxEtvK5uQnfNQ9UjGGzA-)
