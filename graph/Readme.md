@@ -196,3 +196,6 @@
         - eg. directly we can add adj[2].push(4)
     - Remove an edge = O(V)
         - we need to search and find - then delete
+
+##### Reference
+[https://www.youtube.com/playlist?list=PLzjZaW7](https://www.youtube.com/playlist?list=PLzjZaW71kMwSrxEtvK5uQnfNQ9UjGGzA-)
