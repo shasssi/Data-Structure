@@ -214,6 +214,20 @@
         - final result {(0) (1 2) (3)} (all vertex visited)
 
     - DFS (Depth First Search)
+               0
+             /   \   
+            1     4
+            |    /  \     DFS = 0 1 2 3 4 5 6
+            2    5--6     - first vertext 0  
+            |             - then next adjacent (1 or 4)
+            3             - if we pick 1, then repat the process = 2 3
+                          - then we pick 4 = 5 6
+        
+        - DFS: it is mainly recursive in nature
+        - Traversal:
+            - Pick one vertex
+            - then call adjacent of that vertex
+            - then again repeat the same DFS of that adjacent vertex
 
 ##### Reference
 [https://www.youtube.com/playlist?list=PLzjZaW7](https://www.youtube.com/playlist?list=PLzjZaW71kMwSrxEtvK5uQnfNQ9UjGGzA-)
