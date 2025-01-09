@@ -1,5 +1,5 @@
 /*
-    - Shortest path in Undirected & Unweighted Graph
+    - Shortest path in Directed/Undirected & Unweighted Graph
     - Find theshortest path from source to all vertext.
 
     Eg. Adjacent List = [[1,3], [0,3,2], [1,3], [0,1,2]]
@@ -63,6 +63,17 @@ function bfsTraversal(adj, s, visited, dist) {
       [4, 6],
       [4, 5, 7],
       [4, 3, 6]
+    ])
+  );
+  // diercted graph 
+  console.log(
+    shortestPath([
+      [1, 4],
+      [2],
+      [3],
+      [],
+      [5, 2],
+      [3]
     ])
   );
 })();
