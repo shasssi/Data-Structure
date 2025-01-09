@@ -229,6 +229,24 @@
             - then call adjacent of that vertex
             - then again repeat the same DFS of that adjacent vertex
 
+##### Spanning Tree
+    - No cycle
+    - Connected (means from any vertext we can go to any other vertex)
+    - Undirected
+    - All vertex are connected
+    - Can be weighted or Unweighted
+
+    - Total vertext = v
+    - Total Edges = (v - 1)
+
+##### Minimum Spanning Tree
+    - Given:
+        - weighted
+        - connected
+        - Undirected
+    - It is the minimum edge with minimum weight which connect all vertex in a Graph.
+    - Prim's Algorithm
+
 ##### Reference
 [https://github.com/Complete-DSA-Preparation](https://github.com/Prince-1501/Complete-DSA-Preparation)
 [https://www.youtube.com/playlist?list=PLzjZaW7](https://www.youtube.com/playlist?list=PLzjZaW71kMwSrxEtvK5uQnfNQ9UjGGzA-)
