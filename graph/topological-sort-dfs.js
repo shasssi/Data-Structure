@@ -67,4 +67,5 @@ function bfsRecursive(adj, s, visited, stack) {
 (function main() {
   topologicalSort([[], [0], [0], [0]]);
   topologicalSort([[], [3], [3], [], [0, 1], [0, 2]]);
+  topologicalSort([[1, 4], [2], [3], [], [2, 5], [3]]);
 })();
