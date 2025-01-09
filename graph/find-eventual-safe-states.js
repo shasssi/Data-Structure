@@ -51,10 +51,12 @@ function checkCycle(graph, s, visited, dfsVisited, cycleNodes) {
   for (let v of graph[s]) {
     if (!visited[v]) {
       if (checkCycle(graph, v, visited, dfsVisited, cycleNodes)) {
+        // we can put which all nodes are part of cycle
         cycleNodes[s] = true;
         return true;
       }
     } else if (visited[v] && dfsVisited[v]) {
+      // we can put which all nodes are part of cycle
       cycleNodes[s] = true;
       return true;
     }
