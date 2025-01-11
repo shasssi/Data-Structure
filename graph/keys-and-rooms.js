@@ -24,7 +24,7 @@
     Explanation: We can not enter room number 2 since the only key that unlocks it is in that room.
 */
 
-// we can use DFS traversal having visited array flag 
+// we can use DFS traversal having visited array flag (we can also solve using BFS)
 // check from source 0 can we visit all room
 var canVisitAllRooms = function(rooms) {
     const n = rooms.length;
