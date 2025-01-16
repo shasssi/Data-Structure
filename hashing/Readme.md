@@ -44,3 +44,23 @@
         key ------------> Hash Function (some logic) ------------> Hash Table Created (got the index of an array)
     - Access
         key ------------> Hash Function ------------> O(1) (Got the Index)
+
+
+##### Hashing Application
+    - Dictionaries
+        - find the meaning (value) of a word(key), eg- meaning of discipline(key)
+    - Cryptography
+        - storing the password in DB, plain text password (key) --> hashed password (value)
+    - Caches
+        - redis, local browser cache (image url (key) ---> image (value))
+    - Symbol Table in compilers/interpretors
+        - while code compilation/interpretors it sores the different code syntax in a hash table to understand
+    - Routers
+        - if many computers are connected with the Router, we can find Mac address(value) of any computer by passing IP address (key)
+
+##### Direct Access Table
+    - If keys are number ---> we can directly use this as an Index
+    - It doen't works with these keys
+        - Phone Number
+        - Floating Number
+        - Keys are String
