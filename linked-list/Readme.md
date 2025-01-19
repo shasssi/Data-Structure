@@ -22,6 +22,7 @@
     - Advantages
         - Node can be easily traversed in both direction
         - we can easily insert a node before a given node
+        - Complexity of deletion with a given node is O(1) because the previous node can be accessed easily.
     - Disadvantages
         - we have to maintain a extra pointer
         - all oprations require an extra pointer ("previous") to be maintained

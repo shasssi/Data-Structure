@@ -29,10 +29,40 @@ function printList(n) {
   }
 }
 
-let head = null;
-head = unShiift(head, 1);
-head = unShiift(head, 2);
-head = unShiift(head, 4);
-head = unShiift(head, -2);
-console.log("head----", head);
-printList(head);
+// let head = null;
+// head = unShiift(head, 1);
+// head = unShiift(head, 2);
+// head = unShiift(head, 4);
+// head = unShiift(head, -2);
+// console.log("head----", head);
+// printList(head);
+
+class DoublyLinkedList {
+  constructor(head) {
+    this.head = new Node(null);
+    this.tail = new Node(null);
+    this.head.next = this.tail;
+    this.tail.prev = this.head;
+  }
+  insertAtHead(node) {
+    node.prev = this.head;
+    node.next = this.head.next;
+    this.head.next.prev = node;
+    this.head.next = node;
+  }
+  printList() {
+    let n = this.head.next;
+    while (n.data !== null) {
+      const data = n.data;
+      console.log(data);
+      n = n.next;
+    }
+    console.log(this.head);
+  }
+}
+
+const dLL = new DoublyLinkedList(new Node());
+dLL.insertAtHead(new Node(2));
+dLL.insertAtHead(new Node(3));
+dLL.insertAtHead(new Node(4));
+dLL.printList();
