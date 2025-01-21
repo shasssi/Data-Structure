@@ -13,6 +13,6 @@
     - Bucket Sort -> Time Complexity O(N^2), Space: O(N)
 
     Merge Sort variation TimSort is used in Python, Java Android and Swift. 
-
+    
     Javascript Array.sort(), it totally depends on browser which sorting algorithm to be implement.
     Safari, Webkit, etc. uses selection sort whereas Mozilla uses merge sort.
