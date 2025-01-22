@@ -7,7 +7,7 @@
 |[Preorder Tree Traversal](https://github.com/shasssi/Data-Structure/blob/master/tree/preorder-tree-traversal.js)|
 |[Postorder Tree Traversa](https://github.com/shasssi/Data-Structure/blob/master/tree/postorder-tree-traversal.js)|
 |[Postorder Tree Traversal](https://github.com/shasssi/Data-Structure/blob/master/tree/postorder-tree-traversal.js)|
-|Check 2 Tree are Same : [Code 1](https://github.com/shasssi/Data-Structure/blob/master/tree/same-tree-v2.js)[Code 2](https://github.com/shasssi/Data-Structure/blob/master/tree/same-tree-v1.js)|
+|Check 2 Tree are Same : [Code 1](https://github.com/shasssi/Data-Structure/blob/master/tree/same-tree-v2.js) [Code 2](https://github.com/shasssi/Data-Structure/blob/master/tree/same-tree-v1.js)|
 |[Maximum depth of Binary Tree](https://github.com/shasssi/Data-Structure/blob/master/tree/max-depth-binary-tree.js)|
 |[Children Sum in a Binary Tree](https://github.com/shasssi/Data-Structure/blob/master/tree/children-sum-parent.js)|
 |[Levelorder Traversal](https://github.com/shasssi/Data-Structure/blob/master/tree/level-order-traversal.js)|
