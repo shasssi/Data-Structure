@@ -1,3 +1,18 @@
+### [String](https://github.com/shasssi/Data-Structure/tree/master/string)
+
+|      Title     |   Leetcode   
+|----------------|--------------
+
+### [Array](https://github.com/shasssi/Data-Structure/tree/master/array)
+
+|      Title     |   Leetcode   
+|----------------|--------------
+
+### [Linked List](https://github.com/shasssi/Data-Structure/tree/master/linked-list)
+
+|      Title     |   Leetcode   
+|----------------|--------------
+
 ### [Tree](https://github.com/shasssi/Data-Structure/tree/master/tree)
 
 |      Title     |   Leetcode   
@@ -22,6 +37,11 @@
 |[Symmetric Tree](https://github.com/shasssi/Data-Structure/blob/master/tree/symmetric-tree.js)|[101](https://leetcode.com/problems/symmetric-tree/description/)|
 |[Populating Next Right Pointers in Each Node](https://github.com/shasssi/Data-Structure/blob/master/tree/populate-next-right-pointers.js)|[116](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/description/)|
 |[Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/shasssi/Data-Structure/blob/master/tree/construct-binary-tree-from-inorder-preorder.js)|[105](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)|
+
+### [Graph](https://github.com/shasssi/Data-Structure/tree/master/graph)
+
+|      Title     |   Leetcode   
+|----------------|--------------
 
 ##### References
 - [Leetcode 75 Questions](https://docs.google.com/spreadsheets/d/1Mah7MuUMdQ4B4Vpw55TnAYmJXRxJQ4MBQJDUGNLEXbc/edit?usp=sharing)
