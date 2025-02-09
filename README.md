@@ -42,6 +42,40 @@
 
 |      Title     |   Leetcode   
 |----------------|--------------
+|[Create Adjacent List](https://github.com/shasssi/Data-Structure/blob/master/graph/create-adjacent-list.js)|
+|[BFS Traversal - with source](https://github.com/shasssi/Data-Structure/blob/master/graph/breadth-first-search-with-source.js)|
+|[BFS Traversal - without source](https://github.com/shasssi/Data-Structure/blob/master/graph/breadth-first-search-without-source.js)|
+|[Find If Path Exists in Graph](https://github.com/shasssi/Data-Structure/blob/master/graph/find-if-path-exist.js)|[1971](https://leetcode.com/problems/find-if-path-exists-in-graph/description/)|
+|[Find the Town Judge](https://github.com/shasssi/Data-Structure/blob/master/graph/find-the-town-judge.js)|[997](https://leetcode.com/problems/find-the-town-judge/description/)|
+|[Depth First Search](https://github.com/shasssi/Data-Structure/blob/master/graph/depth-first-search.js)|
+|[Number of Islands solution](https://github.com/shasssi/Data-Structure/blob/master/graph/number-of-islands.js)|[200](https://leetcode.com/problems/number-of-islands/description/)|
+|[Flood Fill](https://github.com/shasssi/Data-Structure/blob/master/graph/flood-fill-image.js)|[733](https://leetcode.com/problems/flood-fill/description/)|
+|[Detect cycle in Undirected Graph](https://github.com/shasssi/Data-Structure/blob/master/graph/detect-cycle.js)|[]()|
+|[Detect cycle in directed Graph](https://github.com/shasssi/Data-Structure/blob/master/graph/detect-cycle-in-directed-graph.js)|[]()|
+|[Topological Sort - Kahn's BFS Based algorithm - BFS](https://github.com/shasssi/Data-Structure/blob/master/graph/topological-sort-bfs.js)|[]()|
+|[Topological Sort - DFS](https://github.com/shasssi/Data-Structure/blob/master/graph/topological-sort-dfs.js)|[]()|
+|[Detect Cycle in a Directed Graph](https://github.com/shasssi/Data-Structure/blob/master/graph/detect-cycle-in-directed-graph.js)|[gfg](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1)|
+|[Find Eventual Safe States](https://github.com/shasssi/Data-Structure/blob/master/graph/find-eventual-safe-states.js)|[802](https://leetcode.com/problems/find-eventual-safe-states/description/)|
+|[Course Schedule](https://github.com/shasssi/Data-Structure/blob/master/graph/course-schedule.js)|[207](https://leetcode.com/problems/course-schedule/description/)|
+|[Shortest path in Undirected & Unweighted Graph](https://github.com/shasssi/Data-Structure/blob/master/graph/shortest-path-in-unweighted-graph.js)|[]()|
+|[Shortest path in Directed/Undirected & Unweighted Graph](https://github.com/shasssi/Data-Structure/blob/master/graph/shortest-path-in-DAG.js)|[]()|
+|[Create Directed Wighted Graph](https://github.com/shasssi/Data-Structure/blob/master/graph/create-directed-weighted-graph.js)|[]()|
+|[Spanning Tree - Minimum Spanning Tree](https://github.com/shasssi/Data-Structure/blob/master/graph/minimum-spanning-tree.js)|[]()|
+|[Minimum Soanning Tree - Prim's Algorithm](https://github.com/shasssi/Data-Structure/blob/master/graph/minimum-spanning-tree-prims-algo.js)|[]()|
+|[All Paths From Source to Target](https://github.com/shasssi/Data-Structure/blob/master/graph/all-path-from-source-to-target.js)|[797](https://leetcode.com/problems/all-paths-from-source-to-target/description/)|
+|[Surrounded Regions](https://github.com/shasssi/Data-Structure/blob/master/graph/surrounded-regions.js)|[130](https://leetcode.com/problems/surrounded-regions/description/)|
+|[Max Area of Island](https://github.com/shasssi/Data-Structure/blob/master/graph/maximum-area-of-island.js)|[695](https://leetcode.com/problems/max-area-of-island/description/)|
+|[Rotting Oranges](https://github.com/shasssi/Data-Structure/blob/master/graph/rotting-oranges.js)|[994](https://leetcode.com/problems/rotting-oranges/description/)|
+|[Minimum Steps by Knight](https://github.com/shasssi/Data-Structure/blob/master/graph/steps-by-knight.js)|[gfg](https://www.geeksforgeeks.org/problems/steps-by-knight5927/1)|
+|[Number of Provinces](https://github.com/shasssi/Data-Structure/blob/master/graph/number-of-provinces.js)|[547](https://leetcode.com/problems/number-of-provinces/description/)|
+|[Dijkstra Algorithm - Minimum Soanning Tree](https://github.com/shasssi/Data-Structure/blob/master/graph/dijkstra-algorithm.js)|[]()|
+|[Number of Enclaves](https://github.com/shasssi/Data-Structure/blob/master/graph/number-of-enclaves.js)|[1020](https://leetcode.com/problems/number-of-enclaves/description/)|
+|[Kosaraju’s algorithm: Strongly Connected Components](https://github.com/shasssi/Data-Structure/blob/master/graph/kosaraju-algorithm.js)|[]()|
+|[Keys and Rooms using DFS](https://github.com/shasssi/Data-Structure/blob/master/graph/keys-and-rooms.js)|[841](https://leetcode.com/problems/keys-and-rooms/description/)|
+|[Number of Closed Islands](https://github.com/shasssi/Data-Structure/blob/master/graph/number-of-closed-islands.js)|[1254](https://leetcode.com/problems/number-of-closed-islands/description/)|
+|[Time Needed to Inform All Employees](https://github.com/shasssi/Data-Structure/blob/master/graph/time-needed-to-inform-all-employees.js)|[1376](https://leetcode.com/problems/time-needed-to-inform-all-employees/description/)|
+|[Minimum Time to Collect All Apples in a Tree](https://github.com/shasssi/Data-Structure/blob/master/graph/max-time-to-collect-apple.js)|[1443](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/description/)|
+
 
 ##### References
 - [Leetcode 75 Questions](https://docs.google.com/spreadsheets/d/1Mah7MuUMdQ4B4Vpw55TnAYmJXRxJQ4MBQJDUGNLEXbc/edit?usp=sharing)
