@@ -2,6 +2,8 @@
 
 |      Title     |   Leetcode   
 |----------------|--------------
+|[Valid Paranthesis](https://github.com/shasssi/Data-Structure/blob/master/string/valid-parantesis.js)|[]()|
+|[Group Anagram](https://github.com/shasssi/Data-Structure/blob/master/string/group-anagram.js)|[49](https://leetcode.com/problems/group-anagrams/)|
 
 ### [Array](https://github.com/shasssi/Data-Structure/tree/master/array)
 
