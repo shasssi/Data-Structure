@@ -24,6 +24,13 @@
 |[Insert node at postion - Doubly Linked List](https://github.com/shasssi/Data-Structure/blob/master/linked-list/insert-node-at-position-doubly-linked-list.js)|
 
 
+### [Hashing](https://github.com/shasssi/Data-Structure/tree/master/hashing)
+
+|      Title     |   Leetcode   
+|----------------|--------------
+|[LFU - Least Frequently Used Cache](https://github.com/shasssi/Data-Structure/blob/master/hashing/lfu-cache.js)|[460](https://leetcode.com/problems/lfu-cache/description/)|
+
+
 ### [Tree](https://github.com/shasssi/Data-Structure/tree/master/tree)
 
 |      Title     |   Leetcode   
