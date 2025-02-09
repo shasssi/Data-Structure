@@ -1,3 +1,13 @@
+### [Sorting](https://github.com/shasssi/Data-Structure/tree/master/sorting)
+
+|      Title     |   Leetcode   
+|----------------|--------------
+|[Selection Sort](https://github.com/shasssi/Data-Structure/blob/master/sorting/selection-sort.js)||
+|[Merge Sort](https://github.com/shasssi/Data-Structure/blob/master/sorting/merge-sort.js)||
+|[Insertion Sort](https://github.com/shasssi/Data-Structure/blob/master/sorting/insertion-sort.js)||
+|[Bubble Sort](https://github.com/shasssi/Data-Structure/blob/master/sorting/bubble-sort.js)||
+
+
 ### [String](https://github.com/shasssi/Data-Structure/tree/master/string)
 
 |      Title     |   Leetcode   
