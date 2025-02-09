@@ -20,6 +20,17 @@
 |[Buy Sell Stock](https://github.com/shasssi/Data-Structure/blob/master/array/buy-sell-stocks.js)|[121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|
 
 
+### [Dynamic Programing](https://github.com/shasssi/Data-Structure/tree/master/dynamic-programming)
+
+|      Title     |   Leetcode   
+|----------------|--------------
+|[Word break](https://github.com/shasssi/Data-Structure/blob/master/dynamic-programming/word-break.js)|[139](https://leetcode.com/problems/word-break/)|
+|[Longest Increasing Subsequence](https://github.com/shasssi/Data-Structure/blob/master/dynamic-programming/longest-increasing-subsequence.js)|[300](https://leetcode.com/problems/longest-increasing-subsequence/)|
+|[Longest Common Subsequence](https://github.com/shasssi/Data-Structure/blob/master/dynamic-programming/longest-common-subsequence.js)|[1143](https://leetcode.com/problems/longest-common-subsequence/)|
+|[Coin Change](https://github.com/shasssi/Data-Structure/blob/master/dynamic-programming/coin-change.js)|[322](https://leetcode.com/problems/coin-change/)|
+|[Climbing Stairs](https://github.com/shasssi/Data-Structure/blob/master/dynamic-programming/climbing-stairs.js)|[70](https://leetcode.com/problems/climbing-stairs/)|
+
+
 ### [Linked List](https://github.com/shasssi/Data-Structure/tree/master/linked-list)
 
 |      Title     |   Leetcode   
