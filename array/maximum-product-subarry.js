@@ -23,14 +23,16 @@ const maximumSubarrayProduct = (inp) => {
   let max = Number.MIN_VALUE;
   const len = inp.length;
   for (let i = 0; i < len; i++) {
+    prefix = prefix * inp[i];
+    max = Math.max(max, prefix);
+    suffix = suffix * inp[len - i - 1];
+    max = Math.max(max, suffix);
     if (inp[i] === 0) {
       prefix = 1;
+    }
+    if (inp[len - i - 1] === 0) {
       suffix = 1;
     }
-    prefix *= inp[i];
-    max = Math.max(max, prefix);
-    suffix *= inp[len - i - 1];
-    max = Math.max(max, suffix);
   }
   return max;
 };
@@ -42,4 +44,6 @@ console.log(maximumSubarrayProduct([-2, 1, -3, 4, -1, 2, 1, -5, 4]));
 console.log(maximumSubarrayProduct([1, 8, 6, 2, 5, 4, 8, 3, 7]));
 console.log(maximumSubarrayProduct([1]));
 console.log(maximumSubarrayProduct([5, 4, -1, 7, 8]));
-console.log(maximumSubarrayProduct([-2, 2, 5, -11, 6]));
+console.log(maximumSubarrayProduct([-1,-2,-3,0]));
+console.log(maximumSubarrayProduct([1,0,-1,2,3,-5,-2]));
+console.log(maximumSubarrayProduct([-3,0,1,-2]));
