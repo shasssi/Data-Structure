@@ -62,6 +62,7 @@
 |      Title     |   Leetcode   
 |----------------|--------------
 |[LFU - Least Frequently Used Cache](https://github.com/shasssi/Data-Structure/blob/master/hashing/lfu-cache.js)|[460](https://leetcode.com/problems/lfu-cache/description/)|
+|[LRU - Least Recently Used Cache](https://github.com/shasssi/Data-Structure/blob/master/hashing/lru-cache.js)||
 
 
 ### [Tree](https://github.com/shasssi/Data-Structure/tree/master/tree)
