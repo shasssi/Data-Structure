@@ -24,7 +24,7 @@
 |[Search in rotated sorted array](https://github.com/shasssi/Data-Structure/blob/master/array/search-in-rotated-sorted-array.js)|[33](https://leetcode.com/problems/search-in-rotated-sorted-array/)|
 |[Find Minimum In Rotated Sorted Array](https://github.com/shasssi/Data-Structure/blob/master/array/rotated-sorted-array.js)|[153](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)|
 |[Product of Array Except Self](https://github.com/shasssi/Data-Structure/blob/master/array/product-of-array-except-self.js)|[238](https://leetcode.com/problems/product-of-array-except-self/)|
-|[Maximum Subarray](https://github.com/shasssi/Data-Structure/blob/master/array/maximum-subarry.js)|[53](https://leetcode.com/problems/maximum-subarray/description/)|
+|📌 Kadane's Algorithm : [Maximum Subarray](https://github.com/shasssi/Data-Structure/blob/master/array/maximum-subarry.js)|[53](https://leetcode.com/problems/maximum-subarray/description/)|
 |[Maximum Product Subarray](https://github.com/shasssi/Data-Structure/blob/master/array/maximum-product-subarry.js)|[152](https://leetcode.com/problems/maximum-product-subarray/description/)|
 |[Container with most water](https://github.com/shasssi/Data-Structure/blob/master/array/container-with-most-water.js)|[11](https://leetcode.com/problems/container-with-most-water/description/)|
 |[Buy Sell Stock](https://github.com/shasssi/Data-Structure/blob/master/array/buy-sell-stocks.js)|[121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)|
